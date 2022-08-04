@@ -1,5 +1,18 @@
+/*
+	Program to perform calculation using addition,subtraction multiplication and division
+	method taking any no of arguments using varargs.
+	by Prashant Bansal
+*/
+
+// importing scanner utility to scan the user input
 import java.util.Scanner;
-public class Calculator {
+
+//main class
+//creating class calculator
+class Calculator {
+    
+    //method 1
+	//main method
     public static void main(String[] args){
         int first, second, add, subtract, multiply;
         float divide;

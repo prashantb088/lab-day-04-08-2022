@@ -1,8 +1,18 @@
+/*
+	Program to create Movie Theater Management to store and display movie details.
+	by Prashant Bansal
+*/
+
+// importing scanner utility to get input from user
 import java.util.Scanner;
+
+//class 1
+//main class
 public class movie {
     public static void main(String[] args){
 
-        Scanner input = new Scanner(System.in);
+        //creating scanner object named scan
+        Scanner scan = new Scanner(System.in);
 
         int[] SeatNo = new int[30];
         int Seats;

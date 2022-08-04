@@ -1,3 +1,9 @@
+/*
+	Program to find all the possible two number in an array 
+	whose sum is equal to the target.
+	Prashant Bansal
+*/
+
 public class Solution {
     public static void main(String[] args) {
         int[] nums = {3,2,4};
